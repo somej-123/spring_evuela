@@ -18,7 +18,7 @@ public class MainController {
     @GetMapping("/test")
     public ResponseEntity<Map<String, String>> test() {
         Map<String, String> response = new HashMap<>();
-        response.put("message", "test");
+        response.put("message", "testtestest");
         return ResponseEntity.ok(response);
     }
 }
